@@ -16,7 +16,7 @@ if __name__ == '__main__':
         elif command == 'add':
             name = input("Название продукта: ")
             shop = input("Название магазина: ")
-            price = input("Стоимость: ")
+            price = float(input("Стоимость: "))
 
             product = {
                 'name': name,
